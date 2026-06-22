@@ -17,7 +17,7 @@ services:
 
   backend:
     build:
-      context: ./backend
+      context: ./app/backend
     container_name: taskops-backend
     environment:
       PORT: 5000
@@ -34,7 +34,7 @@ services:
 
   frontend:
     build:
-      context: ./frontend
+      context: ./app/frontend
     container_name: taskops-frontend
     ports:
       - "80:80"
