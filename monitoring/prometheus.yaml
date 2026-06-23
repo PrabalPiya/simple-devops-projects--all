@@ -9,6 +9,5 @@ prometheus:
 
 grafana:
   adminPassword: "TaskOpsAdmin123"
-
   service:
     type: LoadBalancer
